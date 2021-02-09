@@ -32,8 +32,12 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    slider.load()
+    //kek lol soft.
+    //second change
     // Do any additional setup after loading the view.
+    //main1
+    //main2
+    //main3
     
     
 //    let images = (1...10).map { UIImage(named: "crystal_green_\($0)")! }
@@ -105,7 +109,8 @@ class ViewController: UIViewController {
 //  }
 //}
 
-
+//brunch1_1
+//brunch1_2
 
 extension UIView {
   func addBadge(view: UIView, size: CGSize = .zero, corner: UIRectCorner = .bottomRight, isShouldAddAsSubview: Bool = false, isShoulAddInViewFrame: Bool = false, customSuperviewSize: CGSize? = nil) {
