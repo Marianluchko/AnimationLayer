@@ -39,6 +39,10 @@ class ViewController: UIViewController {
     //main2
     //main3
     
+
+    //commit that should be last
+    //commit that should be first
+    
     
 //    let images = (1...10).map { UIImage(named: "crystal_green_\($0)")! }
 //    initialImageView.animationImages = images
