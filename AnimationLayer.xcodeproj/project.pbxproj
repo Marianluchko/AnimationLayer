@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAD6BDDC6BB27D00E63704C2 /* libPods-AnimationLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DE7D19C8B5422FAB547693 /* libPods-AnimationLayer.a */; };
+		CE2C2C02255C691E00E411FE /* CheckpointAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2C01255C691E00E411FE /* CheckpointAnimationLayer.swift */; };
+		CE2C2C07255D33ED00E411FE /* CheckpointAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C2C06255D33ED00E411FE /* CheckpointAnimationView.swift */; };
 		CEF5742225557DAB00284CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5742125557DAB00284CEB /* AppDelegate.swift */; };
 		CEF5742425557DAB00284CEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5742325557DAB00284CEB /* SceneDelegate.swift */; };
 		CEF5742625557DAB00284CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5742525557DAB00284CEB /* ViewController.swift */; };
@@ -16,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64DE7D19C8B5422FAB547693 /* libPods-AnimationLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationLayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABD85D1AB0711F5675F208A /* Pods-AnimationLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLayer.release.xcconfig"; path = "Target Support Files/Pods-AnimationLayer/Pods-AnimationLayer.release.xcconfig"; sourceTree = "<group>"; };
+		CE2C2C01255C691E00E411FE /* CheckpointAnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointAnimationLayer.swift; sourceTree = "<group>"; };
+		CE2C2C06255D33ED00E411FE /* CheckpointAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointAnimationView.swift; sourceTree = "<group>"; };
 		CEF5741E25557DAB00284CEB /* AnimationLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF5742125557DAB00284CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF5742325557DAB00284CEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		CEF5742A25557DAE00284CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF5742D25557DAE00284CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF5742F25557DAE00284CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AD81B708BA84C938B45F74 /* Pods-AnimationLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLayer.debug.xcconfig"; path = "Target Support Files/Pods-AnimationLayer/Pods-AnimationLayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD6BDDC6BB27D00E63704C2 /* libPods-AnimationLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FD181FBA676E90F3D73C143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD81B708BA84C938B45F74 /* Pods-AnimationLayer.debug.xcconfig */,
+				6ABD85D1AB0711F5675F208A /* Pods-AnimationLayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B91BF0A589CE69BD4C57F4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DE7D19C8B5422FAB547693 /* libPods-AnimationLayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEF5741525557DAB00284CEB = {
 			isa = PBXGroup;
 			children = (
 				CEF5742025557DAB00284CEB /* AnimationLayer */,
 				CEF5741F25557DAB00284CEB /* Products */,
+				1FD181FBA676E90F3D73C143 /* Pods */,
+				B91BF0A589CE69BD4C57F4F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +87,8 @@
 				CEF5742125557DAB00284CEB /* AppDelegate.swift */,
 				CEF5742325557DAB00284CEB /* SceneDelegate.swift */,
 				CEF5742525557DAB00284CEB /* ViewController.swift */,
+				CE2C2C06255D33ED00E411FE /* CheckpointAnimationView.swift */,
+				CE2C2C01255C691E00E411FE /* CheckpointAnimationLayer.swift */,
 				CEF5742725557DAB00284CEB /* Main.storyboard */,
 				CEF5742A25557DAE00284CEB /* Assets.xcassets */,
 				CEF5742C25557DAE00284CEB /* LaunchScreen.storyboard */,
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF5743225557DAE00284CEB /* Build configuration list for PBXNativeTarget "AnimationLayer" */;
 			buildPhases = (
+				112B0A1D98BF2B201A49D96A /* [CP] Check Pods Manifest.lock */,
 				CEF5741A25557DAB00284CEB /* Sources */,
 				CEF5741B25557DAB00284CEB /* Frameworks */,
 				CEF5741C25557DAB00284CEB /* Resources */,
+				350B3E53781BD47B99A74DBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +164,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		112B0A1D98BF2B201A49D96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationLayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		350B3E53781BD47B99A74DBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationLayer/Pods-AnimationLayer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationLayer/Pods-AnimationLayer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimationLayer/Pods-AnimationLayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEF5741A25557DAB00284CEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +213,8 @@
 			files = (
 				CEF5742625557DAB00284CEB /* ViewController.swift in Sources */,
 				CEF5742225557DAB00284CEB /* AppDelegate.swift in Sources */,
+				CE2C2C02255C691E00E411FE /* CheckpointAnimationLayer.swift in Sources */,
+				CE2C2C07255D33ED00E411FE /* CheckpointAnimationView.swift in Sources */,
 				CEF5742425557DAB00284CEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,12 +359,14 @@
 		};
 		CEF5743325557DAE00284CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AD81B708BA84C938B45F74 /* Pods-AnimationLayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H27THJ39Y;
+				DEVELOPMENT_TEAM = 282L6YEX2R;
 				INFOPLIST_FILE = AnimationLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +380,14 @@
 		};
 		CEF5743425557DAE00284CEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABD85D1AB0711F5675F208A /* Pods-AnimationLayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H27THJ39Y;
+				DEVELOPMENT_TEAM = 282L6YEX2R;
 				INFOPLIST_FILE = AnimationLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

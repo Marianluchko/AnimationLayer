@@ -1,0 +1,6 @@
+module Pods_AnimationLayer {
+  umbrella header "Pods-AnimationLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

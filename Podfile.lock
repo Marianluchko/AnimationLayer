@@ -1,0 +1,22 @@
+PODS:
+  - RCNativeiOSSDK (0.0.13)
+
+DEPENDENCIES:
+  - RCNativeiOSSDK (from `https://github.com/Marianluchko/RCNativeiOSSDK.git`, branch `widgetFixing`)
+
+EXTERNAL SOURCES:
+  RCNativeiOSSDK:
+    :branch: widgetFixing
+    :git: https://github.com/Marianluchko/RCNativeiOSSDK.git
+
+CHECKOUT OPTIONS:
+  RCNativeiOSSDK:
+    :commit: 774a93e2fa90241982dc40952e45455fb73ad5e6
+    :git: https://github.com/Marianluchko/RCNativeiOSSDK.git
+
+SPEC CHECKSUMS:
+  RCNativeiOSSDK: 1860822ee1185ed66a0f1cc0874425dafa14e804
+
+PODFILE CHECKSUM: 6e802d966d9e5e8a3d088960478c480dedef5560
+
+COCOAPODS: 1.9.3

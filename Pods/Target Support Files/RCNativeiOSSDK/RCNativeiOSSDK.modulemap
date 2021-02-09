@@ -1,0 +1,6 @@
+module RCNativeiOSSDK {
+  umbrella header "RCNativeiOSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

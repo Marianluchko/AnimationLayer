@@ -7,6 +7,10 @@
 
 import UIKit
 
+enum CheckpointType: Int, Codable {
+  case yellow = 1, red, green, blue
+}
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

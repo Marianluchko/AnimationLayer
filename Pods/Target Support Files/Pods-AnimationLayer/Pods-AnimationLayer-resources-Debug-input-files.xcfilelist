@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AnimationLayer/Pods-AnimationLayer-resources.sh
+${PODS_ROOT}/RCNativeiOSSDK/RCNativeiOSSDK/Assets/Icons.xcassets/closeIcon.imageset/closeIcon@1x.png
+${PODS_ROOT}/RCNativeiOSSDK/RCNativeiOSSDK/Assets/Icons.xcassets/closeIcon.imageset/closeIcon@2x.png
+${PODS_CONFIGURATION_BUILD_DIR}/RCNativeiOSSDK/RCNativeOSSDK.bundle
