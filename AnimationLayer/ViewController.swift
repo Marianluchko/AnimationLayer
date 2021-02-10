@@ -32,18 +32,6 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    //kek lol soft.
-    //second change
-    // Do any additional setup after loading the view.
-    //main1
-    //main2
-    //main3
-    
-
-    //commit that should be last
-    //commit that should be first
-    
-    
 //    let images = (1...10).map { UIImage(named: "crystal_green_\($0)")! }
 //    initialImageView.animationImages = images
 //    initialImageView.animationDuration = 0.3
@@ -71,8 +59,7 @@ class ViewController: UIViewController {
 ////        self?.initialImageView.frame = CGRect(origin: origin, size: size)
 ////        self!.initialImageView.image = UIImage(named: "crystal_green_highlighted")
 ////
-    ///feature1_1
-    ///feature 1_2
+
 ////
 ////        let path = UIBezierPath()
 ////        path.move(to: self!.initialImageView.center)
@@ -100,8 +87,6 @@ class ViewController: UIViewController {
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
 //    initialImageView.center = view.center
-    //feature 2_1
-    //feature 2_2
   }
 }
 
@@ -117,8 +102,6 @@ class ViewController: UIViewController {
 //  }
 //}
 
-//brunch1_1
-//brunch1_2
 
 extension UIView {
   func addBadge(view: UIView, size: CGSize = .zero, corner: UIRectCorner = .bottomRight, isShouldAddAsSubview: Bool = false, isShoulAddInViewFrame: Bool = false, customSuperviewSize: CGSize? = nil) {
@@ -180,4 +163,3 @@ extension UIView {
 }
 
 
-//main
