@@ -101,6 +101,7 @@ class ViewController: UIViewController {
     super.viewDidAppear(animated)
 //    initialImageView.center = view.center
     //feature 2_1
+    //feature 2_2
   }
 }
 
