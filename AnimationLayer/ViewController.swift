@@ -100,6 +100,7 @@ class ViewController: UIViewController {
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
 //    initialImageView.center = view.center
+    //feature 2_1
   }
 }
 
