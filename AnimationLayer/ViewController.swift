@@ -71,6 +71,7 @@ class ViewController: UIViewController {
 ////        self?.initialImageView.frame = CGRect(origin: origin, size: size)
 ////        self!.initialImageView.image = UIImage(named: "crystal_green_highlighted")
 ////
+    ///feature1_1
 ////
 ////        let path = UIBezierPath()
 ////        path.move(to: self!.initialImageView.center)
